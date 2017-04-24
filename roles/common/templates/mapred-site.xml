@@ -25,8 +25,16 @@
     and reduce task.
     </description>
   </property>
-  <property>  
-    <name>mapreduce.framework.name</name>  
-    <value>yarn</value>  
+  <property>
+    <name>mapreduce.framework.name</name>
+    <value>yarn</value>
+  </property>
+  <property>
+    <name>mapreduce.map.memory.mb</name>
+    <value>{{map_memory_mb}}</value>
+  </property>
+  <property>
+    <name>mapreduce.reduce.memory.mb</name>
+    <value>{{reduce_memory_mb}}</value>
   </property>
 </configuration>

@@ -8,7 +8,7 @@
     - oraclejava8
     - master
 
-- name: Install hadoop data nodes
+- name: Install hadoop workers
   hosts: hadoop-data
   become: yes
   become_user: root
