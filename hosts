@@ -1,11 +1,11 @@
 [hadoop-master]
-54.242.186.62 ansible_ssh_user=ubuntu ansible_private_key_file="~/Downloads/witlingoRes.pem" ansible_python_interpreter=/usr/bin/python3
+54.242.x.x ansible_ssh_user=ubuntu ansible_private_key_file="~/Downloads/Res.pem" ansible_python_interpreter=/usr/bin/python3
 
 [hadoop-master:vars]
 nodesfile=nodes-ip
 
 [hadoop-data]
-34.207.58.23 ansible_ssh_user=ubuntu ansible_private_key_file="~/Downloads/witlingoRes.pem" ansible_python_interpreter=/usr/bin/python3
+34.207.x.x ansible_ssh_user=ubuntu ansible_private_key_file="~/Downloads/Res.pem" ansible_python_interpreter=/usr/bin/python3
 
 [hadoop-data:vars]
 nodesfile=nodes-ip
