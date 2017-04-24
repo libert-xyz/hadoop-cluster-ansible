@@ -1,0 +1,17 @@
+---
+- name: Install hadoop master node
+  hosts: hadoop-master
+  become: yes
+  become_user: root
+  roles:
+    - common
+    - oraclejava8
+    - master
+
+- name: Install hadoop data nodes
+  hosts: hadoop-data
+  become: yes
+  become_user: root
+  roles:
+    - common
+    - oraclejava8
