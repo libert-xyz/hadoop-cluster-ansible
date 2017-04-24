@@ -1,7 +1,7 @@
 # Hadoop multi-node cluster with Ansible
 Multi-server deployment of Hadoop using Ansible
 
-Source: https://github.com/dwatrous/hadoop-multi-server-ansible
+Inspired from: https://github.com/dwatrous/hadoop-multi-server-ansible
 
 
 ## Quick Start (Master)

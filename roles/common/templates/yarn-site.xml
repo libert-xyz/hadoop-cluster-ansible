@@ -24,7 +24,7 @@
   <property>
     <name>yarn.resourcemanager.scheduler.address</name>
     <value>{{ nodes[0]['hostname'] }}:8030</value>
-  </property> 
+  </property>
   <property>
     <name>yarn.resourcemanager.address</name>
     <value>{{ nodes[0]['hostname'] }}:8032</value>
@@ -41,4 +41,11 @@
     <name>yarn.resourcemanager.admin.address</name>
     <value>{{ nodes[0]['hostname'] }}:8033</value>
   </property>
+
+  <property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>{{yarn_memory_mb}}</value>
+    <description>Amount of physical memory, in MB, that can be allocated for containers.</description>
+  </property>
+
 </configuration>
