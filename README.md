@@ -7,6 +7,24 @@ Ubuntu 16.04 LTS
 Ansible 2.3
 Hadoop 2.7.3
 
+## Role Variables
+
+### hadoop user, group
+hadoop_user: hadoop
+hadoop_group: hadoop
+
+### hadoop version
+hadoop_download_url: http://apache.claz.org/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
+
+### Cluster memory
+#### helper: https://hortonworks.com/blog/how-to-plan-and-configure-yarn-in-hdp-2-0/
+
+yarn_memory_mb: 4000
+
+###MapReduce mapred-site.xml
+map_memory_mb: 1024
+reduce_memory_mb: 2048
+
 ## Quick Start (Master)
 
 
